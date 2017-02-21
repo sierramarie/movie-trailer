@@ -26,15 +26,21 @@ var mouseDetectiveTrailer = new Trailer ('The Great Mouse Detective', 'J5taMQ6Sj
 
 var foxAndTheHoundTrailer = new Trailer ('The Fox & the Hound', 'XFwPyqQy9K0');
 
-$(".button").sparkle({
-  color: "#FFFFFF",
-  count: 30,
-  overlap: 0,
-  speed: 1,
-  minSize: 4,
-  maxSize: 7,
-  direction: "both"
-});
+
+
+
+$(document).ready(function(){
+    $("button").sparkle({
+    color: "rainbow",
+    count: 30,
+    overlap: 0,
+    speed: 3,
+    minSize: 6,
+    maxSize: 10,
+    direction: "both"
+    });
+})
+
 
 
 
