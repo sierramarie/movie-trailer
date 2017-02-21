@@ -32,14 +32,31 @@ var foxAndTheHoundTrailer = new Trailer ('The Fox & the Hound', 'XFwPyqQy9K0');
 $(document).ready(function(){
     $("button").sparkle({
     color: "rainbow",
-    count: 30,
+    count: 20,
     overlap: 0,
-    speed: 3,
-    minSize: 6,
+    speed: 4,
+    minSize: 4,
+    maxSize: 8,
+    direction: "both"
+    });
+})
+
+
+$(document).ready(function(){
+    $("body").sparkle({
+    color: "rainbow",
+    count: 500,
+    overlap: 0,
+    speed: 2,
+    minSize: 10,
     maxSize: 10,
     direction: "both"
     });
 })
+
+
+
+
 
 
 
