@@ -44,12 +44,12 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("body").sparkle({
-    color: "rainbow",
-    count: 500,
+    color: "#fff",
+    count: 300,
     overlap: 0,
     speed: 2,
-    minSize: 10,
-    maxSize: 10,
+    minSize: 1,
+    maxSize: 5,
     direction: "both"
     });
 })
