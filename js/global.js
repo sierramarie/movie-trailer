@@ -14,6 +14,7 @@ class Trailer extends Movie {
         // 5. This method will show the button on the screen, no changes necessary
         this.renderButton()
     }
+
 }
 
 // 6. Create four instances of the Trailer class, passing in the name of a film as the first argument and its corresponding YouTube ID as the second argument
@@ -25,6 +26,15 @@ var mouseDetectiveTrailer = new Trailer ('The Great Mouse Detective', 'J5taMQ6Sj
 
 var foxAndTheHoundTrailer = new Trailer ('The Fox & the Hound', 'XFwPyqQy9K0');
 
+$(".button").sparkle({
+  color: "#FFFFFF",
+  count: 30,
+  overlap: 0,
+  speed: 1,
+  minSize: 4,
+  maxSize: 7,
+  direction: "both"
+});
 
 
 
